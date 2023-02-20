@@ -7,6 +7,7 @@ The base template that all the Github Actions should create from.
 - Keep History Conventional: keeps in the commits history of the `main` branch only the commits that follows the [Conventional Commits][1] convention
 - Conventional PR Titles: checks that the title of PRs follows the [Conventional Commits][1] convention
 - Delete Tags without Release: deletes all the tags without an associated release during the initial setup of the repository
+- Self Test Workflow: a workflow to test the action locally without the need to publishing it to the Marketplace and using on another repository
 
 ## Getting Started
 In order to properly use this repository as template you have to use the Github's "Import repository" functionality. You can find it under the "+" menu icon near your profile photo.
